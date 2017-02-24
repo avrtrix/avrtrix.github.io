@@ -1,0 +1,127 @@
+body {
+  	background-color: #fff;
+	background-image: url(../images/bg.jpg);
+}
+/* sidebar */
+.sidebar-nav {
+	position: initial;
+	text-align: right;
+}
+.sidebar-nav li {
+	line-height: 20px;
+}
+.sidebar-nav li a {
+	text-indent: 0px;
+	padding: 15px;
+	color: #fff;
+  	transition: transform 0.3s ease-out;
+}
+.sidebar-nav li a:hover {
+	background: inherit;
+}
+.sidebar-nav li a.active {
+	font-size: 22px;
+  	transition: font-size 0.3s ease-out;
+  	color: #37FF8B;
+} 
+#sidebar-wrapper {
+	min-width: 55px;
+	background: rgba(0, 0, 0, 0.72);
+}
+/* page content */
+.container-fluid {
+	padding: 0px;
+}
+.profile-img {
+	padding: 20px;
+	border-radius: 200px;
+}
+.section-content {
+	padding: 20px 20px 20px 270px;
+    display: table-cell;
+    vertical-align: middle
+}
+.section-content .panel {
+	background-color: rgba(255, 255, 255, 0.79);
+}
+.section-content .panel-body {
+	min-height: 275px;
+}
+.section-content h4 {
+	font-weight: bold;
+}
+.section-content .small,
+.section-content small {
+	color: #635f5f;
+    font-size: 13px;
+}
+/* section */
+section {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 640px;
+    display: table;	
+	color: #fff;
+}
+.profile-section {
+	background-image: url(../images/bg.jpg);
+}
+.summary-section {
+	background-color: #FFF;
+	color: #000;
+}
+.experience-section {
+	background-image: url(../images/ny.jpg);
+	color: #000;
+}
+.experience-section ul {
+	font-size: 12px;
+    -moz-padding-start: 20px;
+    -webkit-padding-start: 20px;
+    -khtml-padding-start: 20px;
+    -o-padding-start: 20px;
+}
+.company-name {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal;
+}
+.line-height-30 {
+	line-height: 30px;
+}
+.line-height-20 {
+	line-height: 20px;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+/* Media Queries */
+@media (max-width: 768px) {
+	#sidebar-wrapper {
+	    margin: 0;
+    	left: 0;
+	}
+	.sidebar-nav {
+    	width: 55px;
+	}
+	.sidebar-nav li {
+		text-align: center;
+	} 
+	.sidebar-nav li a {
+		font-size: 18px;
+	}
+	.sidebar-nav li a.active {
+		font-size: 25px;
+	}
+	.profile-img {
+		padding: 5px;
+	}
+	.section-content {
+		padding-left: 65px;
+	}
+}
